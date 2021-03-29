@@ -195,4 +195,21 @@ Slider Styles
 
 h4 {
   text-transform: uppercase;
+  font-weight: 500;
+  color: var(--clr-primary-5);
+  margin: 0.5rem 0; /* 0.5 for top and bottom and 0 for left and right */
+}
+
+.title {
+  margin-bottom: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.text {
+  color: var(--clr-grey-5);
+  line-height: 1.8;
+  max-width: 35em; /* prevents text form panning all section */
+  margin: 0 auto;
+  letter-spacing: 1px;
 }
