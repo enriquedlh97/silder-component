@@ -163,7 +163,7 @@ Slider Styles
   margin-top: 5rem; /* adds extra margin on top for component to be completely centered */
   text-align: center; /* centers text */
   padding: 1rem 0;
-  /*position: relative;  used so that the child */
+  position: relative;  /* used becasue the buttons use position absolute but are placed relative to this slider */ that the child */
 }
 
 .reviews {
@@ -218,4 +218,24 @@ h4 {
   font-size: 3rem;
   margin-top: 2em;
   color: var(--clr-primary-5);
+}
+
+/* buttons */
+.btn {
+  position: absolute;
+  top: 175px;
+  background:  var(--clr-grey-5);
+  color: var(--clr-white);
+  padding: 0.25rem 0.35rem;
+  border: transparent;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.next-btn {
+  right: -0.5rem;
+}
+
+.prev-btn {
+  left: -0.5rem;
 }
