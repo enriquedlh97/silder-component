@@ -14,6 +14,48 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h2>slider project</h2>
+    <section class="slider">
+      <div class="reviews">
+
+        <!-- 
+          span tag used to mark up a part of text/document
+          is like div but div is block element and span is inline element
+        -->
+          <h2><span>/</span> reviews</h2>
+
+        <!-- Contains slides -->
+        <div class="slide-container">
+          <!-- single slide START --> 
+            <article class="slide">
+              <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/c_scale,w_200/v1595959121/person-1_aufeoq.jpg" 
+                alt="John paul"
+                class="img"
+              />
+              <h4>John paul</h4>
+              <p class="title">Engineer</p>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Distinctio ex nemo sit dolorem repellendus, voluptatibus 
+                reiciendis quia optio libero, ipsa reprehenderit vero ducimus 
+                tenetur sapiente neque consectetur illum? Asperiores, autem.
+              </p>
+              <div class="quote-icon">
+                <!-- i tag contains an icon, here the class indicates the icon -->
+                <i class="fas fa-quote-right"></i>
+              </div>
+            </article>
+          <!-- single slide END -->
+        </div>
+        <!-- buttons -->
+        <!-- previous button -->
+        <button class="btn prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <!-- next button -->
+        <button class="btn next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
   </body>
 </html>
