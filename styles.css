@@ -265,3 +265,11 @@ h4 {
   /*overflow: hidden;*/
   background: var(--clr-primary-7);
 }
+.slide {
+  position: absolute; /* places all slides on top of each other  */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100;
+  transition: var(--transition); /* chacnges slide location */
+}
