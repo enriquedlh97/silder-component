@@ -190,5 +190,9 @@ Slider Styles
   background: var(--clr-white); /* adds the white color for padding image */
   padding: 0.25rem; /* actual padding for image */
   border: 1px solid var(--clr-grey-7); /* adds border to be able to see white paddign */
-  box-shadow: var(--dark-shadow);
+  box-shadow: var(--dark-shadow); /* adds shadow outside image */
+}
+
+h4 {
+  text-transform: uppercase;
 }
