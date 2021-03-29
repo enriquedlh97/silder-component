@@ -272,4 +272,15 @@ h4 {
   width: 100%;
   height: 100;
   transition: var(--transition); /* chacnges slide location */
+  /* opacity: 0;*/ /*makes the slide invisible one it moves */ 
+}
+.slide.active{
+  opacity: 1;
+  transform: translateX(0);
+}
+.slide.next {
+  transform: translateX(100%); /* places slide on the right */
+}
+.slide.last {
+  transform: translateX(-100%); /* places slide on the left */
 }
